@@ -1,104 +1,178 @@
-1;  var i = 0;
-    while (i < 2) {
-        north(i);
-        i++;
+//1
+var i;
+for(i = 0; i < 2; i++){
+    north();
 }
 
-2;  var i = 0;
-    while (i < 16) {
-        east(i);
-        i++;
-} 
-
-3;  var i = 0;
-    while (i < 2) {
-        south(i);
-        i++;
-
-    while (i < 2){
-        east(i);
-        break;
-    }
+//2
+for(i = 0; i < 16; i++){
+    east();
 }
-//7 раз
- 
 
-	
-4; var i = 0;
-    while (i < 4){
-        east(i);
-        i++;
-    }
-    
-    var i = 0;
-    while (i < 3){
-        south(i);
-        i++;
-    }
- 
-    var i = 0;
-    while (i < 2){
-        east(i);
-        i++;
-    }
-    
-    var i = 0;
-    while (i <  3){
-        south(i);
-        i++;
-    }
+//3 - 7 раз
+for(i = 0; i < 1; i++){
+    south();
+}
 
-    var i = 0;
-    while (i < 4){
-        east(i);
-        i++;
-    }
-    
-    var i = 0;
-    while (i < 2){
-        south(i);
-        i++;
-    }
+for(i = 0; i < 1; i++){
+    east();
+}
 
-5;  var i = 0;
-    while (i < 5){
-        east(i);
-        i++;
-    }
-    
-    var i = 0;
-    while (i < 4){
-        south(i);
-        i++;
-    }
-    
-    var i = 0;
-    while (i < 3){
-        west(i);
-        i++;
-    }
-    
-    var i = 0;    
-    while (i < 4){
-        south(i);
-        i++;
-    }
+//4
+for(i = 0; i < 1; i++){
+    south()
+}
 
-    var i = 0;
-    while (i < 3){
-        west(i);
-        i++;
-    }
+for(i = 0; i < 3; i++){
+    east();
+}
 
-    var i = 0;    
-    while (i < 4);{
-        north(i);
-        i++;
-    }   
-    
-    var i = 0;    
-    while (i < 3){
-            south(i);
-            i++;
-        }
-    
+for(i = 0; i < 2; i++){
+    south();
+}
+
+for(i = 0; i < 1; i++){
+    east();
+}
+
+for(i = 0; i < 3; i++){
+    south();
+}
+
+for(i = 0; i < 2; i++){
+    east();
+}
+
+for(i = 0; i < 1; i++){
+    south();
+}
+
+//5
+for(i = 0; i < 6; i++){
+    east();
+}
+
+for(i = 0; i < 2; i++){
+    south();
+}
+
+for(i = 0; i < 2; i++){
+    west();
+}
+
+for(i = 0; i < 3; i++){
+    south();
+}
+
+for(i = 0; i < 2; i++){
+    west();
+}
+
+for(i = 0; i < 3; i++){
+    north();
+}
+
+
+for(i = 0; i < 2; i++){
+    west();
+}
+
+
+for(i = 0; i < 5; i++){
+    south();
+}
+
+for(i = 0; i < 6; i++){
+    east();
+}
+
+//6
+for(i = 0; i < 5; i++){
+    south();
+}
+
+for(i = 0; i < 2; i++){
+    east();
+}
+
+for(i = 0; i < 3; i++){
+    north();
+}
+
+east();
+
+for(i = 0; i < 2; i++){
+    north();
+}
+
+for(i = 0; i < 3; i++){
+    east();
+}
+
+for(i = 0; i < 4; i++){
+    south();
+}
+
+for (i = 0; i < 2; i++){
+    west();
+}
+
+for(i = 0; i < 3; i++){
+    south();
+}
+
+for(i = 0; i < 2; i++){
+    east();
+}
+
+//7
+for(i = 0; i < 11; i++){
+    south();
+}
+
+for(i = 0; i < 4; i++){
+    east();
+}
+
+for(i = 0; i < 11; i++){
+    north();
+}
+
+for(i = 0; i < 2; i++){
+    east();
+}
+
+for(i = 0; i < 1; i++){
+    south();
+}
+
+for(i = 0; i < 1; i++){
+    east();
+}
+
+for(i = 0; i < 5; i++){
+    south();
+}
+
+for(i = 0; i < 1; i++){
+    west();
+}
+
+for(i = 0; i < 7; i++){
+    south();
+}
+
+for(i = 0; i < 8; i++){
+    east();
+}
+
+for(i = 0; i < 9; i++){
+    south()
+}
+
+for(i = 0; i < 1; i++){
+    east();
+}
+
+
+
